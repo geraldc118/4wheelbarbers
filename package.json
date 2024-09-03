@@ -1,0 +1,17 @@
+{
+  "name": "4-wheel-barbers",
+  "version": "1.0.0",
+  "description": "Mobile barbering, grooimg for men.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Barbering",
+    "mobile",
+    "mens",
+    "grooming"
+  ],
+  "author": "gerald cameron",
+  "license": "ISC"
+}
