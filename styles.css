@@ -9,12 +9,12 @@ body {
 
 /* Header */
 header {
-    background-color: #343a40; /* Dark background for header */
-    color: #fff; /* White text */
+    background-color: #343a40; 
+    color: #fff; 
 }
 
 header .display-4 {
-    margin-bottom: 0.5rem; /* Space below the title */
+    margin-bottom: 0.5rem; 
 }
 
 header .lead {
@@ -23,71 +23,71 @@ header .lead {
 
 /* Image Cards Section */
 .image-cards-section {
-    background-color: #fff; /* White background for the section */
-    padding-top: 60px; /* Space above the section */
-    padding-bottom: 60px; /* Space below the section */
+    background-color: #fff; 
+    padding-top: 60px; 
+    padding-bottom: 60px; 
 }
 
 .image-card {
-    border: none; /* Remove default card border */
-    background-color: #f9f9f9; /* Light background color for the card */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 15px; /* Rounded corners */
-    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+    border: none; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out; 
 }
 
 .image-card:hover {
-    transform: scale(1.05); /* Slightly increase the size on hover */
+    transform: scale(1.05);
 }
 
 .card-img-top {
-    border-radius: 50%; /* Circular images */
-    width: 70%; /* Adjust image size */
-    margin: 20px auto; /* Center image within the card */
+    border-radius: 50%;
+    width: 70%; 
+    margin: 20px auto;
 }
 
 .card-title {
-    color: #333; /* Dark gray for the title */
+    color: #333;
 }
 
 /* Pricing Section */
 .pricing-section {
-    background-color: #f9f9f9; /* Light background for contrast */
-    padding-top: 60px; /* Space above the section */
-    padding-bottom: 60px; /* Space below the section */
+    background-color: #f9f9f9;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .pricing-list {
-    padding-left: 0; /* Remove default padding */
+    padding-left: 0;
 }
 
 .pricing-item {
-    background-color: #fff; /* White background for each item */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-bottom: 20px; /* Space between items */
-    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .pricing-item:hover {
-    transform: scale(1.03); /* Slight zoom on hover */
+    transform: scale(1.03);
 }
 
 .pricing-title {
     font-size: 1.5em;
-    color: #333; /* Dark gray for readability */
-    margin-bottom: 10px; /* Space below the title */
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .pricing-price {
     font-size: 1.2em;
-    color: #ffcc00; /* Bright yellow for pricing */
+    color: #ffcc00; 
     font-weight: bold;
 }
 
 .section-title {
-    color: #000; /* Black for section title */
+    color: #000;
 }
 
 .btn{
@@ -96,6 +96,6 @@ header .lead {
 
 /* Footer */
 footer {
-    background-color: #343a40; /* Dark background for footer */
-    color: #fff; /* White text */
+    background-color: #343a40;
+    color: #fff;
 }
