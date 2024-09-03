@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #343a40; /* Dark background for header */
+    color: #fff; /* White text */
+}
+
+header .display-4 {
+    margin-bottom: 0.5rem; /* Space below the title */
+}
+
+header .lead {
+    font-size: 1.25rem;
+}
+
+/* Image Cards Section */
+.image-cards-section {
+    background-color: #fff; /* White background for the section */
+    padding-top: 60px; /* Space above the section */
+    padding-bottom: 60px; /* Space below the section */
+}
+
+.image-card {
+    border: none; /* Remove default card border */
+    background-color: #f9f9f9; /* Light background color for the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.image-card:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.card-img-top {
+    border-radius: 50%; /* Circular images */
+    width: 70%; /* Adjust image size */
+    margin: 20px auto; /* Center image within the card */
+}
+
+.card-title {
+    color: #333; /* Dark gray for the title */
+}
+
+/* Pricing Section */
+.pricing-section {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding-top: 60px; /* Space above the section */
+    padding-bottom: 60px; /* Space below the section */
+}
+
+.pricing-list {
+    padding-left: 0; /* Remove default padding */
+}
+
+.pricing-item {
+    background-color: #fff; /* White background for each item */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px; /* Space between items */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.pricing-item:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+}
+
+.pricing-title {
+    font-size: 1.5em;
+    color: #333; /* Dark gray for readability */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.pricing-price {
+    font-size: 1.2em;
+    color: #ffcc00; /* Bright yellow for pricing */
+    font-weight: bold;
+}
+
+.section-title {
+    color: #000; /* Black for section title */
+}
+
+.btn{
+    background-color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #fff; /* White text */
+}
