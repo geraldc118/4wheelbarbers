@@ -1,0 +1,27 @@
+header {
+    background-color: #343a40; 
+    color: #fff; 
+    text-align: center;
+    }
+
+.logo{
+    border-radius: 15px;
+    padding:10px;
+}
+
+.display-4 {
+    margin-bottom: 8px; 
+}
+
+.lead {
+    font-size: 1.25rem;
+}
+
+.imgHolder{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contactSection{
+    text-align: left;
+}

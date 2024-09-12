@@ -1,0 +1,46 @@
+.servicesSection {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+  
+  .serviceRow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .serviceImg {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .serviceText {
+    padding: 0 15px;
+  }
+  
+  .serviceTitle {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .reverseRow {
+    flex-direction: row-reverse;
+  }
+  
+  @media (max-width: 767.98px) {
+    .serviceRow {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .serviceImg {
+      margin-bottom: 1rem;
+    }
+  }
+  

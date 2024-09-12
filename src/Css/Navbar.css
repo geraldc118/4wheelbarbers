@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    flex-grow: 1;
+  }
+  
+  .navbar-text {
+    margin-left: auto;
+  }
+  
+  .navContact {
+    text-decoration:none;
+    padding-left: 20px;
+    color: black
+  }
+  
+  .navContact:hover{
+    text-decoration: none;
+    color: #007bff;
+  }
