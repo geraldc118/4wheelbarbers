@@ -7,7 +7,7 @@ function Pricing(){
             <div className="container">
                 <div className="row text-center">
                     <div className="col-12">
-                        <h2 className="sectionTitle mb-5">Our Pricing</h2>
+                        <h2 className="pricingHead mb-5">Our Pricing</h2>
                     </div>
                 </div>
                 <div className="row justify-content-center">

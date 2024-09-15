@@ -8,8 +8,10 @@ function Footer() {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
+                    <a className="contactLink" href="mailto:4wheelbarbers@yahoo.com">Email: 4wheelbarbers@yahoo.com</a>
+                    <a className="contactLink" href="tel:+447756235725">Call: 07756235725</a>
                         <div className="footerText">
-                            <p>&copy; 2024 | 4 Wheel Barbers. All rights reserved.</p>
+                            <p className="footerLink">&copy; 2024 | 4 Wheel Barbers. All rights reserved.</p>
                             <Link className="footerLink" to="/terms&conditions">Terms & Conditions</Link>
                             <Link className="footerLink" to="/privacyPolicy">Privacy Policy</Link>
                         </div>
@@ -17,6 +19,10 @@ function Footer() {
                 </div>
             </div>        
         </footer>
+                    
+                            
+                        
+                    
     );
 }
 

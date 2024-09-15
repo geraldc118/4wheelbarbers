@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../Css/Services.css';
 import hair1 from '../Images/hair1.jpg';
 import hair2 from '../Images/hair2.jpg';
@@ -15,9 +16,9 @@ function Services() {
             </div>
 
                 {/* Classic Cuts */}
-            <div className="row align-items-center mb-5 serviceRow">
+            <div className="row mb-5 serviceRow">
                 <div className="col-md-12">
-                    <img className="serviceImg img-fluid" src={hair1} alt="Classic haircut" />
+                    <img className="serviceImg img" src={hair1} alt="Classic haircut" />
                 </div>
                 <div className="col-md-12">
                     <div className="serviceText">
@@ -31,7 +32,7 @@ function Services() {
 
                 
             {/* Classic Cuts */}
-            <div className="row align-items-center mb-5 serviceRow">
+            <div className="row mb-5 serviceRow">
                 <div className="col-md-12">
                     <img className="serviceImg img-fluid" src={hair2} alt="Classic haircut" />
                 </div>
@@ -46,7 +47,7 @@ function Services() {
             </div>
                 
                 {/* Group Bundles */}
-            <div className="row align-items-center mb-5 serviceRow">
+            <div className="row mb-5 serviceRow">
                 <div className="col-md-12">
                     <img className="serviceImg img-fluid" src={hair3} alt="Classic haircut" />
                 </div>
@@ -61,6 +62,11 @@ function Services() {
                     </p>
                     <p>These bundles are perfect for those who value convenience and consistent quality!</p>
                     </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <Link to="/contact" class="btn btn-primary w-50">Book A Haircut</Link>
                 </div>
             </div>
         </div>
