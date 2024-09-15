@@ -13,7 +13,7 @@ function Home(){
         <header className="header bg-dark text-light py-3">
             <div className="container text-center">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-md-12">
                        <div className="imgHolder">
                             <img src={wheel_Logo} className="logo rounded circle" alt="4 wheel logo"/>
                             <h1 className="display-4">4 Wheel Barbers</h1>

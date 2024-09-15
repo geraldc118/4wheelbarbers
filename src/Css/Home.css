@@ -9,6 +9,14 @@ header {
     padding:10px;
 }
 
+@media (max-width: 600px) {
+    .logo{
+        width: 200px;
+        height: 200px;
+    }    
+  }
+  
+
 .display-4 {
     margin-bottom: 8px; 
 }

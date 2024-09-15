@@ -7,7 +7,7 @@ function Footer() {
         <footer className="footer bg-dark py-3">
             <div className="container text-center">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-md-12">
                     <a className="contactLink" href="mailto:4wheelbarbers@yahoo.com">Email: 4wheelbarbers@yahoo.com</a>
                     <a className="contactLink" href="tel:+447756235725">Call: 07756235725</a>
                         <div className="footerText">
