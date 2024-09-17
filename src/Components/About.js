@@ -1,5 +1,6 @@
 import React from "react";
 import '../Css/About.css';
+import { Link } from "react-router-dom";
 
 function About(){
     return(
@@ -15,6 +16,9 @@ function About(){
                         <p className="sectionText">We know that your time is valuable, so we bring the barbershop experience directly to your doorstep. From classic haircuts to modern styles, our team is equipped with the latest tools and techniques to ensure you always look your best.</p>
                         <p className="sectionText">We cover South East London, Essex, and Kent, ensuring our services are accessible wherever you are. Our goal is to create an environment where you can relax and enjoy the convenience of professional grooming without leaving your home.</p>
                         <p className="sectionText">We understand that each client is unique, and we take the time to get to know you, your preferences, and your lifestyle, so we can deliver a personalized service that exceeds your expectations.</p>
+                    </div>
+                    <div className="col-12">
+                        <Link to="/contact" class="btn btn-primary w-50">Book A Haircut</Link>
                     </div>
                 </div>
             </div>

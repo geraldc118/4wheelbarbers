@@ -34,7 +34,7 @@ function Home(){
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card image-card">
+                        <div className="card imageCard">
                             <img src={hair1} className="card-img-top rounded-circle" alt="Service 1"/>
                             <div className="card-body">
                                 <h5 className="card-title">Classic Cuts</h5>
@@ -42,7 +42,7 @@ function Home(){
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card image-card">
+                        <div className="card imageCard">
                             <img src={hair2} className="card-img-top rounded-circle" alt="Service 2"/>
                             <div className="card-body">
                                 <h5 className="card-title">Haircut & Beard</h5>
@@ -50,7 +50,7 @@ function Home(){
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card image-card">
+                        <div className="card imageCard">
                             <img src={hair3} className="card-img-top rounded-circle" alt="Service 3"/>
                             <div className="card-body">
                                 <h5 className="card-title">Bundles</h5>

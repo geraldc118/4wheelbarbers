@@ -13,10 +13,19 @@ footer {
 }
 
 .contactLink{
-    margin-bottom: 60px;
     text-decoration: none;
     font-size: 1rem;
     color: #fff !important;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* Mobile */
+@media (max-width: 600px) {
+    .contactLink{
+        display: block;
+        margin-bottom: 15px;
+    }    
+  }
+
+

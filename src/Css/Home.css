@@ -9,6 +9,7 @@ header {
     padding:10px;
 }
 
+/* Mobile */
 @media (max-width: 600px) {
     .logo{
         width: 200px;
@@ -28,6 +29,10 @@ header {
 .imgHolder{
     padding: 15px;
     border-radius: 5px;
+}
+
+.imageCard{
+    margin-bottom: 10px;
 }
 
 .contactSection{
