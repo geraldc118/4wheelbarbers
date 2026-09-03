@@ -27,7 +27,7 @@ function Pricing(){
                             </div>
                             <div className="pricingItem">
                                 <h3 className="pricingTitle">Bundle Deals (6 Haircuts & Beard)</h3>
-                                <p className="pricingPrice">£220</p>
+                                <p className="pricingPrice">£270</p>
                             </div>
                         </div>
                     </div>
